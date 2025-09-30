@@ -1,11 +1,10 @@
-Package: myfuncs
-Title: A collection of helper functions
+Package: vetteR
+Title: A collection of helper functions for R
 Version: 1.0.0
 Authors@R: 
-    person("Phillip", "Vetter", , "first.last@example.com", role = c("aut", "cre"))
+    person("Phillip", "Vetter", , "pbrve@dtu.dk", role = c("aut", "cre"))
 Description: A collection of various helper functions, in particular to avoid verbose function calls.
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+License: GPL-3
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
@@ -15,4 +14,3 @@ Imports:
 	stats,
 	ggplot2,
 	patchwork
-	

@@ -1,7 +1,7 @@
 ###########################################################
 # TRY THAT SUPPRESSES AND RECOVERS ANSWER DESPITE WARNINGS
 ###########################################################
-
+#' @export
 try_withWarningRecovery = function(expr,silent=TRUE){
   output = try(withCallingHandlers(
     {

@@ -1,0 +1,7 @@
+.Rhistory
+.DS_Store
+._.DS_Store
+**/.DS_Store
+**/._.DS_Store
+packageDev.Rmd
+git_push.sh
